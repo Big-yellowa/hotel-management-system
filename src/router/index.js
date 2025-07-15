@@ -4,6 +4,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HotelIndex from '../components/HotelIndex.vue'
 import PersonalInfo from '../components/PersonalInfo.vue' // 引入个人信息组件
 import HotelSearch from '../components/HotelSearch.vue';
+import MyOrder from '../components/MyOrder.vue';
 // 配置路由规则
 const routes = [
   {
@@ -20,6 +21,11 @@ const routes = [
     path: '/hotel-search',
     name: 'HotelSearch',
     component: HotelSearch
+  },
+  {
+    path: '/order',
+    name: 'MyOrder',
+    component: MyOrder
   }
 ]
 

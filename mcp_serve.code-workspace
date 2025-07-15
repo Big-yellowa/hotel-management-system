@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "../mcp_serve"
+		},
+		{
+			"path": "../autoworkflow"
+		},
+		{
+			"path": "../autoagent"
+		},
+		{
+			"path": "../sample-master"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../demoaiagentpysdk-master"
+		},
+		{
+			"path": "../demoaiagentpysdk-master_workflow"
+		}
+	],
+	"settings": {}
+}

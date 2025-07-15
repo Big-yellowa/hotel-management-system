@@ -18,6 +18,11 @@
           class="nav-item" 
           :class="{ 'nav-active': $route.path === '/hotel-search' }"
         >酒店搜索</router-link>
+         <router-link 
+          to="/order" 
+          class="nav-item" 
+          :class="{ 'nav-active': $route.path === '/order' }"
+        >订单管理</router-link>
         <router-link 
           to="/personal" 
           class="nav-item" 
